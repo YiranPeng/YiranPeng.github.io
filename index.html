@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Yiran Peng's personal website for applications, job search, resume, research projects, publications, and portfolio."
+    />
+    <title>Yiran Peng | Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to top">Yiran Peng</a>
+      <div class="header-actions">
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#education" data-i18n="nav.education">Education</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#publications" data-i18n="nav.publications">Publications</a>
+          <a href="interests.html" data-i18n="nav.interests">Interests</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="language-switch" aria-label="Language">
+          <span data-i18n="language.label">Language</span>
+          <button type="button" data-lang-switch="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang-switch="zh" aria-pressed="false">ZH</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-doodle" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">MSc Cognitive Science | Computer Science Background</p>
+          <h1 id="hero-title" data-i18n="hero.name">Yiran Peng</h1>
+          <p class="hero-role" data-i18n="hero.role">
+            AR Interaction | Computer Vision | Human-Computer Interaction | Intelligent Systems
+          </p>
+          <p class="hero-copy" data-i18n="hero.copy">
+            I am an MSc Cognitive Science student at the University of Edinburgh with a BEng in
+            Computer Science and Technology from Xi'an Jiaotong-Liverpool University. My work spans
+            AR-based unmanned surface vehicle control, computer vision games, optimization algorithms,
+            and applied intelligent systems.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-i18n="hero.projects">View Projects</a>
+            <a class="button ghost" href="resume.pdf" download data-i18n="hero.cv">Download CV</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img src="assets/portrait-hero.png" alt="Portrait of Yiran Peng" />
+        </figure>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+          <h2 data-i18n="about.title">Profile</h2>
+        </div>
+        <div class="about-layout">
+          <div class="line-panel">
+            <p class="lead" data-i18n="about.lead">
+              I am interested in building interactive systems that connect perception, behavior,
+              and real-world decision-making. My academic and project experience combines software
+              engineering, Unity development, computer vision, eye-tracking interaction, simulation,
+              and quantitative user evaluation.
+            </p>
+            <p data-i18n="about.copy">
+              I am currently preparing for applications and career opportunities related to HCI,
+              AR/VR, software engineering, computer vision, intelligent robotics, and research-driven
+              product development.
+            </p>
+          </div>
+          <div class="quick-facts" aria-label="Personal information">
+            <div>
+              <span data-i18n="facts.locationLabel">Current Location</span>
+              <strong data-i18n="facts.location">Edinburgh, UK</strong>
+            </div>
+            <div>
+              <span data-i18n="facts.degreeLabel">Current Degree</span>
+              <strong data-i18n="facts.degree">MSc Cognitive Science</strong>
+            </div>
+            <div>
+              <span data-i18n="facts.backgroundLabel">Background</span>
+              <strong data-i18n="facts.background">BEng Computer Science and Technology</strong>
+            </div>
+            <div>
+              <span data-i18n="facts.focusLabel">Focus Areas</span>
+              <strong data-i18n="facts.focus">AR, CV, HCI, Intelligent Systems</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="education.eyebrow">Resume</p>
+          <h2 data-i18n="education.title">Education & Skills</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="time">Sept. 2025 - Now</span>
+            <h3>University of Edinburgh</h3>
+            <p data-i18n="education.edi">MSc Cognitive Science, Edinburgh, United Kingdom.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="time">Sept. 2021 - Jun. 2025</span>
+            <h3>Xi'an Jiaotong-Liverpool University</h3>
+            <p data-i18n="education.xjtlu">
+              BEng Computer Science and Technology, Suzhou, China. Awarded Second Prize in the
+              Asia-Pacific Cup Mathematical Modeling Competition in 2023.
+            </p>
+          </article>
+          <article class="timeline-item">
+            <span class="time" data-i18n="education.skillsLabel">Skills</span>
+            <h3 data-i18n="education.skillsTitle">Technical Toolkit</h3>
+            <ul class="skills">
+              <li>MATLAB</li>
+              <li>C#</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+              <li>Unity</li>
+              <li>Git</li>
+              <li>MySQL</li>
+              <li>OpenCV</li>
+              <li>Simulink</li>
+              <li>PLECS</li>
+              <li>Wireshark</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="projects.eyebrow">Projects</p>
+          <h2 data-i18n="projects.title">Selected Project Experience</h2>
+          <p class="section-intro" data-i18n="projects.intro">
+            Each project begins with a compact overview. Open a card to see the full context,
+            responsibilities, methods, and outcomes.
+          </p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-doodle" aria-hidden="true">
+              <span class="icon-glasses"></span>
+            </div>
+            <div class="project-body">
+              <span class="time">May 2024 - May 2025</span>
+              <h3 data-i18n="card.ar.title">AR Manipulation for Unmanned Surface Vehicles</h3>
+              <p data-i18n="card.ar.copy">
+                Gaze-based HoloLens 2 interaction and Unity AR visualization for real-time USV
+                operation and situational awareness evaluation.
+              </p>
+              <div class="tags">
+                <span>HoloLens 2</span>
+                <span>Unity</span>
+                <span>Eye Tracking</span>
+              </div>
+              <button class="text-button" type="button" data-project="ar" data-i18n="projects.details">View details</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-doodle" aria-hidden="true">
+              <span class="icon-water"></span>
+            </div>
+            <div class="project-body">
+              <span class="time">Jun. - Aug. 2024</span>
+              <h3 data-i18n="card.algae.title">Smart Blue Algae Treatment System</h3>
+              <p data-i18n="card.algae.copy">
+                A USV-based treatment system combining pump optimization, real-time spraying control,
+                CFD simulation, and field testing.
+              </p>
+              <div class="tags">
+                <span>USV</span>
+                <span>CFD</span>
+                <span>Control</span>
+              </div>
+              <button class="text-button" type="button" data-project="algae" data-i18n="projects.details">View details</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-doodle" aria-hidden="true">
+              <span class="icon-ball"></span>
+            </div>
+            <div class="project-body">
+              <span class="time">Feb. - May 2024</span>
+              <h3 data-i18n="card.vision.title">VisionPlay: Interactive Ball Game</h3>
+              <p data-i18n="card.vision.copy">
+                Real-time ball tracking, collision detection, Unity game design, and user experience
+                evaluation for interactive AR gameplay.
+              </p>
+              <div class="tags">
+                <span>Python</span>
+                <span>OpenCV</span>
+                <span>Unity</span>
+              </div>
+              <button class="text-button" type="button" data-project="vision" data-i18n="projects.details">View details</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-doodle" aria-hidden="true">
+              <span class="icon-wave"></span>
+            </div>
+            <div class="project-body">
+              <span class="time">Jun. - Aug. 2023</span>
+              <h3 data-i18n="card.power.title">SHEPWM Optimization for Multilevel Inverters</h3>
+              <p data-i18n="card.power.copy">
+                MATLAB and PLECS simulation comparing optimization algorithms for harmonic reduction
+                in cascaded H-bridge multilevel inverters.
+              </p>
+              <div class="tags">
+                <span>MATLAB</span>
+                <span>PLECS</span>
+                <span>SHEPWM</span>
+              </div>
+              <button class="text-button" type="button" data-project="power" data-i18n="projects.details">View details</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-doodle" aria-hidden="true">
+              <span class="icon-ai"></span>
+            </div>
+            <div class="project-body">
+              <span class="time">Jan. 2026 - Present</span>
+              <h3 data-i18n="card.bjd.title">AI Co-facilitated BJD Diary</h3>
+              <p data-i18n="card.bjd.copy">
+                Backend pipeline for an AI-assisted BJD diary application, connecting prompts,
+                model configuration, Stable Diffusion generation, and image output management.
+              </p>
+              <div class="tags">
+                <span>Stable Diffusion</span>
+                <span>LoRA</span>
+                <span>Backend</span>
+              </div>
+              <button class="text-button" type="button" data-project="bjd" data-i18n="projects.details">View details</button>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-doodle" aria-hidden="true">
+              <span class="icon-speed"></span>
+            </div>
+            <div class="project-body">
+              <span class="time">Jan. 2026 - Apr. 2026</span>
+              <h3 data-i18n="card.triton.title">Triton Optimization of GLM-ASR with FlashAttention</h3>
+              <p data-i18n="card.triton.copy">
+                Custom Triton kernels and FlashAttention-style optimization for GLM-ASR inference,
+                achieving faster end-to-end transcription while preserving baseline accuracy.
+              </p>
+              <div class="tags">
+                <span>Triton</span>
+                <span>FlashAttention</span>
+                <span>GPU</span>
+              </div>
+              <button class="text-button" type="button" data-project="triton" data-i18n="projects.details">View details</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="interests" class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="interests.eyebrow">Personal Vibes</p>
+          <h2 data-i18n="interests.title">Beyond the CV</h2>
+          <p class="section-intro" data-i18n="interests.intro">
+            A soft little doorway for future vibe coding works, travel notes, drawings, and other personal archives.
+          </p>
+        </div>
+        <div class="interest-grid">
+          <a class="interest-card" href="interests.html#vibe-coding">
+            <span class="interest-icon code" aria-hidden="true"></span>
+            <strong data-i18n="interests.vibe">Vibe Coding Works</strong>
+            <small data-i18n="interests.vibeCopy">Interactive sketches, playful tools, and tiny experiments.</small>
+          </a>
+          <a class="interest-card" href="interests.html#travel">
+            <span class="interest-icon travel" aria-hidden="true"></span>
+            <strong data-i18n="interests.travel">Travel Logs</strong>
+            <small data-i18n="interests.travelCopy">Places, moods, routes, photos, and field notes.</small>
+          </a>
+          <a class="interest-card" href="interests.html#art">
+            <span class="interest-icon art" aria-hidden="true"></span>
+            <strong data-i18n="interests.art">Drawings</strong>
+            <small data-i18n="interests.artCopy">Illustrations, sketches, color studies, and visual diaries.</small>
+          </a>
+        </div>
+      </section>
+
+      <section id="publications" class="section muted">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="publications.eyebrow">Research</p>
+          <h2 data-i18n="publications.title">Publications</h2>
+        </div>
+        <div class="publication-list">
+          <a
+            class="publication-item publication-link"
+            href="https://ieeexplore.ieee.org/document/10379251"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>IEEE SCEMS 2023</span>
+            <h3>
+              Voltage Harmonic Reduction of Cascaded H-bridge Multilevel Inverter Based on SHEPWM by
+              Using Optimized Immune Algorithm
+            </h3>
+            <p>
+              Yiran Peng, R. Gong, J. Zhou, T. Chen, Q. Liu and X. Wang. IEEE 6th Student Conference
+              on Electric Machines and Systems, Huzhou, China, 2023.
+            </p>
+          </a>
+          <a
+            class="publication-item publication-link"
+            href="https://ieeexplore.ieee.org/document/10924804"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>IEEE UIC 2024</span>
+            <h3>VisionPlay: An Interactive Ball Game Using Computer Vision and Augmented-reality Overlay</h3>
+            <p>
+              R. Cao, J. He, Yiran Peng, Z. Chen and Q. Sun. IEEE Smart World Congress, Nadi, Fiji,
+              2024.
+            </p>
+          </a>
+        </div>
+      </section>
+
+      <section id="activities" class="section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="activities.eyebrow">Leadership</p>
+          <h2 data-i18n="activities.title">Extracurricular Activities</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="time">Oct. 2021 - Jun. 2023</span>
+            <h3 data-i18n="activities.role">Vice-Chair, Student Accommodation Committee, XJTLU</h3>
+            <p data-i18n="activities.copy">
+              Organized major student events including club recruitment activities, operated school
+              social media platforms, and created articles and video content for student audiences.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 data-i18n="contact.title">Let's Connect</h2>
+          <p data-i18n="contact.copy">
+            I am open to application, research, internship, and career conversations in software,
+            HCI, AR/VR, computer vision, and intelligent interactive systems.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:s2886281@ed.ac.uk">s2886281@ed.ac.uk</a>
+          <a href="tel:+8619851676998">+86 19851676998</a>
+          <a href="tel:+447344122618">+44 07344122618</a>
+          <a href="resume.pdf" download data-i18n="contact.cv">Download CV</a>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="project-dialog" aria-labelledby="project-dialog-title">
+      <button class="dialog-close" type="button" aria-label="Close project details">x</button>
+      <p class="eyebrow" id="project-dialog-date"></p>
+      <h2 id="project-dialog-title"></h2>
+      <p id="project-dialog-summary"></p>
+      <div class="dialog-columns">
+        <div>
+          <h3 data-i18n="dialog.did">What I did</h3>
+          <ul id="project-dialog-points"></ul>
+        </div>
+        <div>
+          <h3 data-i18n="dialog.tools">Tools & methods</h3>
+          <div class="tags" id="project-dialog-tags"></div>
+        </div>
+      </div>
+    </dialog>
+
+    <footer class="footer">
+      <span>&copy; <span id="year"></span> Yiran Peng</span>
+      <a href="#top" data-i18n="footer.top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
