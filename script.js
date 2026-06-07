@@ -46,6 +46,12 @@ const translations = {
     "projects.intro":
       "Each project begins with a compact overview. Open a card to see the full context, responsibilities, methods, and outcomes.",
     "projects.details": "View details",
+    "timeline.bjd": "BJD Diary",
+    "timeline.triton": "GLM-ASR",
+    "timeline.ar": "AR USV",
+    "timeline.algae": "Blue Algae",
+    "timeline.vision": "VisionPlay",
+    "timeline.power": "SHEPWM",
     "card.ar.title": "AR Manipulation for Unmanned Surface Vehicles",
     "card.ar.copy":
       "Gaze-based HoloLens 2 interaction and Unity AR visualization for real-time USV operation and situational awareness evaluation.",
@@ -139,6 +145,12 @@ const translations = {
     "projects.title": "精选项目经历",
     "projects.intro": "每个项目先展示简短总览。点击卡片按钮可以查看项目背景、职责、方法和成果。",
     "projects.details": "查看详情",
+    "timeline.bjd": "BJD 日记",
+    "timeline.triton": "GLM-ASR",
+    "timeline.ar": "AR 无人艇",
+    "timeline.algae": "蓝藻治理",
+    "timeline.vision": "VisionPlay",
+    "timeline.power": "SHEPWM",
     "card.ar.title": "基于 AR 的无人水面艇远程实时操控",
     "card.ar.copy": "基于 HoloLens 2 的眼动交互与 Unity AR 可视化，用于实时 USV 操控和态势感知评估。",
     "card.algae.title": "基于无人水面艇的智能蓝藻治理系统",
@@ -489,7 +501,7 @@ const tags = document.querySelector("#project-dialog-tags");
 const mapTooltip = document.querySelector("[data-map-tooltip]");
 const worldMap = document.querySelector(".world-map");
 const mapLayer = document.querySelector("[data-map-layer]");
-let mapState = { scale: 4, x: -1580, y: -220 };
+let mapState = { scale: 2.05, x: -650, y: -58 };
 let dragState = null;
 
 function closestCountry(target) {
@@ -533,7 +545,7 @@ function setMapView(nextState) {
 }
 
 function showEuropeMap() {
-  setMapView({ scale: 4, x: -1580, y: -220 });
+  setMapView({ scale: 2.05, x: -650, y: -58 });
 }
 
 function showWorldMap() {
@@ -622,6 +634,20 @@ document.querySelectorAll("[data-lang-switch]").forEach((button) => {
 
 document.querySelectorAll("[data-project]").forEach((button) => {
   button.addEventListener("click", () => openProject(button.dataset.project));
+});
+
+document.querySelectorAll(".project-timeline a").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    const target = document.querySelector(link.getAttribute("href"));
+
+    if (!target) {
+      return;
+    }
+
+    event.preventDefault();
+    target.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "start" });
+    history.replaceState(null, "", link.getAttribute("href"));
+  });
 });
 
 document.querySelectorAll("[data-country-en]").forEach((country) => {
