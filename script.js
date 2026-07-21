@@ -10,6 +10,7 @@ const translations = {
     "nav.about": "About",
     "nav.education": "Education",
     "nav.projects": "Projects",
+    "nav.work": "Work",
     "nav.publications": "Publications",
     "nav.interests": "Interests",
     "nav.contact": "Contact",
@@ -17,13 +18,13 @@ const translations = {
     "hero.name": "Yiran Peng",
     "hero.role": "AR Interaction | Computer Vision | Human-Computer Interaction | Intelligent Systems",
     "hero.copy":
-      "I am an MSc Cognitive Science student at the University of Edinburgh with a BEng in Computer Science and Technology from Xi'an Jiaotong-Liverpool University. My work spans AR-based unmanned surface vehicle control, computer vision games, optimization algorithms, and applied intelligent systems.",
+      "I am an MSc Cognitive Science student at the University of Edinburgh with a BEng in Computer Science and Technology from Xi'an Jiaotong-Liverpool University. My work spans HCI evaluation for LLM agents, AR-based unmanned surface vehicle control, computer vision games, GPU acceleration, and generative visual storytelling.",
     "hero.projects": "View Projects",
     "hero.cv": "Download CV",
     "about.eyebrow": "About",
     "about.title": "Profile",
     "about.lead":
-      "I am interested in building interactive systems that connect perception, behavior, and real-world decision-making. My academic and project experience combines software engineering, Unity development, computer vision, eye-tracking interaction, simulation, and quantitative user evaluation.",
+      "I am interested in building interactive systems that connect perception, behavior, trust, and real-world decision-making. My academic and project experience combines HCI research, LLM-agent evaluation, GPU systems, Unity development, computer vision, eye-tracking interaction, simulation, and quantitative user evaluation.",
     "about.copy":
       "I am currently preparing for applications and career opportunities related to HCI, AR/VR, software engineering, computer vision, intelligent robotics, and research-driven product development.",
     "facts.locationLabel": "Current Location",
@@ -33,7 +34,7 @@ const translations = {
     "facts.backgroundLabel": "Background",
     "facts.background": "BEng Computer Science and Technology",
     "facts.focusLabel": "Focus Areas",
-    "facts.focus": "AR, CV, HCI, Intelligent Systems",
+    "facts.focus": "HCI, LLM Agents, AR, CV, GPU Systems",
     "education.eyebrow": "Resume",
     "education.title": "Education & Skills",
     "education.edi": "MSc Cognitive Science, Edinburgh, United Kingdom.",
@@ -46,12 +47,15 @@ const translations = {
     "projects.intro":
       "Each project begins with a compact overview. Open a card to see the full context, responsibilities, methods, and outcomes.",
     "projects.details": "View details",
-    "timeline.bjd": "BJD Diary",
+    "timeline.llm": "LLM Agents",
     "timeline.triton": "GLM-ASR",
     "timeline.ar": "AR USV",
     "timeline.algae": "Blue Algae",
     "timeline.vision": "VisionPlay",
     "timeline.power": "SHEPWM",
+    "card.llm.title": "Multi-Turn Evaluation of Persona Stability and Trust in LLM Agents",
+    "card.llm.copy":
+      "HCI framework and multi-turn evaluation pipeline for measuring persona evolution, trust, expectation violation, and repair in LLM-based agents.",
     "card.ar.title": "AR Manipulation for Unmanned Surface Vehicles",
     "card.ar.copy":
       "Gaze-based HoloLens 2 interaction and Unity AR visualization for real-time USV operation and situational awareness evaluation.",
@@ -76,11 +80,16 @@ const translations = {
     "interests.artCopy": "Illustrations, sketches, color studies, and visual diaries.",
     "publications.eyebrow": "Research",
     "publications.title": "Publications",
+    "work.eyebrow": "Internship",
+    "work.title": "Work Experience",
+    "work.role": "AI APP Development Intern",
+    "work.copy":
+      "Developed an end-to-end generative visual storytelling pipeline that transforms diary prompts into personalized ball-jointed-doll images through automated model configuration, Stable Diffusion generation, LoRA fine-tuning, and output management.",
     "activities.eyebrow": "Leadership",
     "activities.title": "Extracurricular Activities",
     "activities.role": "Vice-Chair, Student Accommodation Committee, XJTLU",
     "activities.copy":
-      "Organized major student events including club recruitment activities, operated school social media platforms, and created articles and video content for student audiences.",
+      "Led major student events including annual club-recruitment activities, coordinating logistics, promotion, and on-site execution while managing social media channels and producing written and video content for residents.",
     "contact.eyebrow": "Contact",
     "contact.title": "Let's Connect",
     "contact.copy":
@@ -110,20 +119,21 @@ const translations = {
     "nav.about": "关于我",
     "nav.education": "教育",
     "nav.projects": "项目",
+    "nav.work": "实习",
     "nav.publications": "论文",
     "nav.interests": "兴趣",
     "nav.contact": "联系",
     "hero.eyebrow": "认知科学硕士 | 计算机科学背景",
     "hero.name": "彭奕然",
-    "hero.role": "AR 交互 | 计算机视觉 | 人机交互 | 智能系统",
+    "hero.role": "AR 交互 | 计算机视觉 | 人机交互 | LLM 智能体",
     "hero.copy":
-      "我是爱丁堡大学认知科学硕士学生，本科毕业于西交利物浦大学计算机科学与技术专业。我的经历覆盖基于 AR 的无人水面艇控制、计算机视觉交互游戏、优化算法和应用型智能系统。",
+      "我是爱丁堡大学认知科学硕士学生，本科毕业于西交利物浦大学计算机科学与技术专业。我的经历覆盖 LLM 智能体 HCI 评估、基于 AR 的无人水面艇控制、计算机视觉交互游戏、GPU 加速和生成式视觉叙事。",
     "hero.projects": "查看项目",
     "hero.cv": "下载简历",
     "about.eyebrow": "关于我",
     "about.title": "个人简介",
     "about.lead":
-      "我关注如何构建连接感知、行为和现实决策的交互系统。我的学术与项目经历结合了软件工程、Unity 开发、计算机视觉、眼动交互、仿真和量化用户评估。",
+      "我关注如何构建连接感知、行为、信任和现实决策的交互系统。我的学术与项目经历结合了 HCI 研究、LLM 智能体评估、GPU 系统、Unity 开发、计算机视觉、眼动交互、仿真和量化用户评估。",
     "about.copy":
       "目前我正在准备与 HCI、AR/VR、软件工程、计算机视觉、智能机器人以及研究驱动型产品开发相关的申请和职业机会。",
     "facts.locationLabel": "当前所在地",
@@ -133,7 +143,7 @@ const translations = {
     "facts.backgroundLabel": "专业背景",
     "facts.background": "计算机科学与技术工学学士",
     "facts.focusLabel": "关注方向",
-    "facts.focus": "AR、计算机视觉、人机交互、智能系统",
+    "facts.focus": "HCI、LLM 智能体、AR、计算机视觉、GPU 系统",
     "education.eyebrow": "简历",
     "education.title": "教育经历与技能",
     "education.edi": "认知科学硕士，爱丁堡，英国。",
@@ -145,12 +155,14 @@ const translations = {
     "projects.title": "精选项目经历",
     "projects.intro": "每个项目先展示简短总览。点击卡片按钮可以查看项目背景、职责、方法和成果。",
     "projects.details": "查看详情",
-    "timeline.bjd": "BJD 日记",
+    "timeline.llm": "LLM 智能体",
     "timeline.triton": "GLM-ASR",
     "timeline.ar": "AR 无人艇",
     "timeline.algae": "蓝藻治理",
     "timeline.vision": "VisionPlay",
     "timeline.power": "SHEPWM",
+    "card.llm.title": "LLM 智能体人格稳定性与信任的多轮评估",
+    "card.llm.copy": "设计 HCI 框架和多轮评估流程，用于衡量 LLM 智能体的人格演化、信任、预期违背和用户修复。",
     "card.ar.title": "基于 AR 的无人水面艇远程实时操控",
     "card.ar.copy": "基于 HoloLens 2 的眼动交互与 Unity AR 可视化，用于实时 USV 操控和态势感知评估。",
     "card.algae.title": "基于无人水面艇的智能蓝藻治理系统",
@@ -170,10 +182,14 @@ const translations = {
     "interests.artCopy": "插画、草图、配色练习和视觉日记。",
     "publications.eyebrow": "研究",
     "publications.title": "论文发表",
+    "work.eyebrow": "实习",
+    "work.title": "实习经历",
+    "work.role": "AI APP 开发实习生",
+    "work.copy": "开发端到端生成式视觉叙事流程，将日记提示词转化为个性化 BJD 图像，覆盖自动模型配置、Stable Diffusion 生成、LoRA 微调和输出管理。",
     "activities.eyebrow": "领导力",
     "activities.title": "课外经历",
     "activities.role": "西交利物浦大学学生宿舍委员会副主席",
-    "activities.copy": "组织社团招新等大型学生活动，运营学校社交媒体平台，并创作发布图文和视频内容。",
+    "activities.copy": "负责策划并执行年度社团招新等大型学生活动，协调后勤、宣传和现场执行，同时运营委员会社交媒体并产出图文与视频内容。",
     "contact.eyebrow": "联系",
     "contact.title": "欢迎联系我",
     "contact.copy": "我期待与软件、HCI、AR/VR、计算机视觉和智能交互系统相关的申请、研究、实习和职业交流。",
@@ -199,6 +215,19 @@ const translations = {
 
 const projectTranslations = {
   en: {
+    llm: {
+      date: "Jan. 2026 - Present",
+      title: "Multi-Turn Evaluation of Persona Stability and Trust in LLM Agents",
+      summary:
+        "An HCI research project distinguishing acceptable persona evolution from harmful drift in LLM-based agents, with multi-turn evaluation, external state tracking, and dynamic trust measurement.",
+      points: [
+        "Developed an HCI framework to distinguish acceptable persona evolution from harmful drift in LLM-based agents.",
+        "Designed a 27-item scale measuring dynamic trust, expectation violation, and user-initiated repair.",
+        "Built a scalable multi-turn evaluation pipeline with external state tracking, controlled growth triggers, and trajectory constraints.",
+        "Compared three growth mechanisms across multiple agent roles and designed a longitudinal study on trust and continued interaction."
+      ],
+      tags: ["HCI", "LLM Agents", "Trust", "Persona Stability", "Multi-turn Evaluation"]
+    },
     ar: {
       date: "May 2024 - May 2025",
       title: "Remote and Real-time Manipulation for USVs Based on AR",
@@ -255,6 +284,19 @@ const projectTranslations = {
     }
   },
   zh: {
+    llm: {
+      date: "2026 年 1 月 - 至今",
+      title: "LLM 智能体人格稳定性与信任的多轮评估",
+      summary:
+        "面向 LLM 智能体的 HCI 研究项目，用于区分可接受的人格演化与有害漂移，并通过多轮评估、外部状态追踪和动态信任量表进行测量。",
+      points: [
+        "提出 HCI 框架，区分 LLM 智能体中的可接受人格演化与有害漂移。",
+        "设计 27 项量表，用于测量动态信任、预期违背和用户主动修复。",
+        "搭建可扩展的多轮评估流程，包含外部状态追踪、受控成长触发和轨迹约束。",
+        "比较多种成长机制和智能体角色，并设计纵向研究评估人格变化对信任与持续交互的影响。"
+      ],
+      tags: ["HCI", "LLM 智能体", "信任", "人格稳定性", "多轮评估"]
+    },
     ar: {
       date: "2024 年 5 月 - 2025 年 5 月",
       title: "基于 AR 的无人水面艇远程实时操控",
@@ -343,6 +385,10 @@ Object.assign(translations.en, {
   "travel.austriaCopy": "Future notes for Vienna, music, museums, pastries, and city walks.",
   "travel.france": "France",
   "travel.franceCopy": "Future notes for galleries, streets, food, and small moments in France.",
+  "travel.italy": "Italy",
+  "travel.italyCopy": "Future notes for Italian cities, museums, food, stone streets, and sunny fragments.",
+  "travel.greece": "Greece",
+  "travel.greeceCopy": "Future notes for Greek islands, ancient ruins, sea colors, and soft travel memories.",
   "travel.norway": "Norway",
   "travel.norwayCopy": "Future notes for fjords, northern scenery, quiet routes, and cold blue palettes.",
   "travel.poland": "Poland",
@@ -360,6 +406,8 @@ Object.assign(translations.en, {
   "travelLog.hungaryTitle": "River views and evening lights",
   "travelLog.austriaTitle": "Vienna, music, and pastries",
   "travelLog.franceTitle": "Galleries, streets, and small moments",
+  "travelLog.italyTitle": "Old streets, sunlight, and gelato notes",
+  "travelLog.greeceTitle": "Islands, ruins, and blue edges",
   "travelLog.norwayTitle": "Fjords and cold blue palettes",
   "travelLog.polandTitle": "History, food, and city fragments",
   "travelLog.denmarkTitle": "Design, harbor walks, and cozy textures",
@@ -403,6 +451,10 @@ Object.assign(translations.zh, {
   "travel.austriaCopy": "未来可放维也纳、音乐、博物馆、甜点和城市漫步。",
   "travel.france": "法国",
   "travel.franceCopy": "未来可放画廊、街道、美食和法国旅行中的小瞬间。",
+  "travel.italy": "意大利",
+  "travel.italyCopy": "未来可放意大利城市、博物馆、美食、石板街道和阳光片段。",
+  "travel.greece": "希腊",
+  "travel.greeceCopy": "未来可放希腊岛屿、古迹、海边颜色和柔软的旅行记忆。",
   "travel.norway": "挪威",
   "travel.norwayCopy": "未来可放峡湾、北欧风景、安静路线和冷蓝色调。",
   "travel.poland": "波兰",
@@ -420,6 +472,8 @@ Object.assign(translations.zh, {
   "travelLog.hungaryTitle": "河景和夜晚灯光",
   "travelLog.austriaTitle": "维也纳、音乐和甜点",
   "travelLog.franceTitle": "画廊、街道和小瞬间",
+  "travelLog.italyTitle": "旧街、阳光和冰淇淋笔记",
+  "travelLog.greeceTitle": "岛屿、遗迹和蓝色边缘",
   "travelLog.norwayTitle": "峡湾和冷蓝色调",
   "travelLog.polandTitle": "历史、美食和城市片段",
   "travelLog.denmarkTitle": "设计、港口散步和舒适质感",
