@@ -16,11 +16,11 @@ const translations = {
     "nav.contact": "Contact",
     "hero.eyebrow": "MSc Cognitive Science | Computer Science Background",
     "hero.name": "Yiran Peng",
-    "hero.role": "AR Interaction | Computer Vision | Human-Computer Interaction | Intelligent Systems",
+    "hero.role": "HCI Research | LLM Agents | AR Interaction | Computer Vision | GPU Systems",
     "hero.copy":
       "I am an MSc Cognitive Science student at the University of Edinburgh with a BEng in Computer Science and Technology from Xi'an Jiaotong-Liverpool University. My work spans HCI evaluation for LLM agents, AR-based unmanned surface vehicle control, computer vision games, GPU acceleration, and generative visual storytelling.",
     "hero.projects": "View Projects",
-    "hero.cv": "Download CV",
+    "hero.cv": "CV",
     "about.eyebrow": "About",
     "about.title": "Profile",
     "about.lead":
@@ -47,15 +47,21 @@ const translations = {
     "projects.intro":
       "Each project begins with a compact overview. Open a card to see the full context, responsibilities, methods, and outcomes.",
     "projects.details": "View details",
-    "timeline.llm": "LLM Agents",
+    "timeline.llm": "AI Agents",
     "timeline.triton": "GLM-ASR",
     "timeline.ar": "AR USV",
     "timeline.algae": "Blue Algae",
     "timeline.vision": "VisionPlay",
     "timeline.power": "SHEPWM",
-    "card.llm.title": "Multi-Turn Evaluation of Persona Stability and Trust in LLM Agents",
+    "date.llm": "Jan. 2026 - Present",
+    "date.triton": "Jan. 2026 - Apr. 2026",
+    "date.ar": "May 2024 - May 2025",
+    "date.algae": "Jun. - Aug. 2024",
+    "date.vision": "Feb. - May 2024",
+    "date.power": "Jun. - Aug. 2023",
+    "card.llm.title": "Persona Stability and Trust in Evolving AI Agents",
     "card.llm.copy":
-      "HCI framework and multi-turn evaluation pipeline for measuring persona evolution, trust, expectation violation, and repair in LLM-based agents.",
+      "Master's thesis on persona evolution, problematic drift, dynamic trust, and long-term interaction with evolving AI agents.",
     "card.ar.title": "AR Manipulation for Unmanned Surface Vehicles",
     "card.ar.copy":
       "Gaze-based HoloLens 2 interaction and Unity AR visualization for real-time USV operation and situational awareness evaluation.",
@@ -82,11 +88,13 @@ const translations = {
     "publications.title": "Publications",
     "work.eyebrow": "Internship",
     "work.title": "Work Experience",
+    "work.date": "Jan. 2026 - Present",
     "work.role": "AI APP Development Intern",
     "work.copy":
       "Developed an end-to-end generative visual storytelling pipeline that transforms diary prompts into personalized ball-jointed-doll images through automated model configuration, Stable Diffusion generation, LoRA fine-tuning, and output management.",
     "activities.eyebrow": "Leadership",
     "activities.title": "Extracurricular Activities",
+    "activities.date": "Oct. 2021 - Jun. 2023",
     "activities.role": "Vice-Chair, Student Accommodation Committee, XJTLU",
     "activities.copy":
       "Led major student events including annual club-recruitment activities, coordinating logistics, promotion, and on-site execution while managing social media channels and producing written and video content for residents.",
@@ -94,7 +102,11 @@ const translations = {
     "contact.title": "Let's Connect",
     "contact.copy":
       "I am open to application, research, internship, and career conversations in software, HCI, AR/VR, computer vision, and intelligent interactive systems.",
-    "contact.cv": "Download CV",
+    "contact.cv": "CV",
+    "cv.eyebrow": "CV Preview",
+    "cv.title": "Yiran Peng CV",
+    "cv.copy": "You can preview the PDF here. Use the button below if you want to download a copy.",
+    "cv.download": "Download CV",
     "dialog.did": "What I did",
     "dialog.tools": "Tools & methods",
     "footer.top": "Back to top",
@@ -129,7 +141,7 @@ const translations = {
     "hero.copy":
       "我是爱丁堡大学认知科学硕士学生，本科毕业于西交利物浦大学计算机科学与技术专业。我的经历覆盖 LLM 智能体 HCI 评估、基于 AR 的无人水面艇控制、计算机视觉交互游戏、GPU 加速和生成式视觉叙事。",
     "hero.projects": "查看项目",
-    "hero.cv": "下载简历",
+    "hero.cv": "简历",
     "about.eyebrow": "关于我",
     "about.title": "个人简介",
     "about.lead":
@@ -155,14 +167,20 @@ const translations = {
     "projects.title": "精选项目经历",
     "projects.intro": "每个项目先展示简短总览。点击卡片按钮可以查看项目背景、职责、方法和成果。",
     "projects.details": "查看详情",
-    "timeline.llm": "LLM 智能体",
+    "timeline.llm": "AI 智能体",
     "timeline.triton": "GLM-ASR",
     "timeline.ar": "AR 无人艇",
     "timeline.algae": "蓝藻治理",
     "timeline.vision": "VisionPlay",
     "timeline.power": "SHEPWM",
-    "card.llm.title": "LLM 智能体人格稳定性与信任的多轮评估",
-    "card.llm.copy": "设计 HCI 框架和多轮评估流程，用于衡量 LLM 智能体的人格演化、信任、预期违背和用户修复。",
+    "date.llm": "2026 年 1 月 - 至今",
+    "date.triton": "2026 年 1 月 - 2026 年 4 月",
+    "date.ar": "2024 年 5 月 - 2025 年 5 月",
+    "date.algae": "2024 年 6 月 - 2024 年 8 月",
+    "date.vision": "2024 年 2 月 - 2024 年 5 月",
+    "date.power": "2023 年 6 月 - 2023 年 8 月",
+    "card.llm.title": "演化型 AI 智能体的人格稳定性与信任研究",
+    "card.llm.copy": "硕士论文项目，研究人格演化、问题性漂移、动态信任以及与演化型 AI 智能体的长期交互。",
     "card.ar.title": "基于 AR 的无人水面艇远程实时操控",
     "card.ar.copy": "基于 HoloLens 2 的眼动交互与 Unity AR 可视化，用于实时 USV 操控和态势感知评估。",
     "card.algae.title": "基于无人水面艇的智能蓝藻治理系统",
@@ -184,16 +202,22 @@ const translations = {
     "publications.title": "论文发表",
     "work.eyebrow": "实习",
     "work.title": "实习经历",
+    "work.date": "2026 年 1 月 - 至今",
     "work.role": "AI APP 开发实习生",
     "work.copy": "开发端到端生成式视觉叙事流程，将日记提示词转化为个性化 BJD 图像，覆盖自动模型配置、Stable Diffusion 生成、LoRA 微调和输出管理。",
     "activities.eyebrow": "领导力",
     "activities.title": "课外经历",
+    "activities.date": "2021 年 10 月 - 2023 年 6 月",
     "activities.role": "西交利物浦大学学生宿舍委员会副主席",
     "activities.copy": "负责策划并执行年度社团招新等大型学生活动，协调后勤、宣传和现场执行，同时运营委员会社交媒体并产出图文与视频内容。",
     "contact.eyebrow": "联系",
     "contact.title": "欢迎联系我",
     "contact.copy": "我期待与软件、HCI、AR/VR、计算机视觉和智能交互系统相关的申请、研究、实习和职业交流。",
-    "contact.cv": "下载简历",
+    "contact.cv": "简历",
+    "cv.eyebrow": "简历预览",
+    "cv.title": "彭奕然简历",
+    "cv.copy": "你可以在这里在线预览 PDF。如果需要保存副本，可以使用下方下载按钮。",
+    "cv.download": "下载简历",
     "dialog.did": "我负责的内容",
     "dialog.tools": "工具与方法",
     "footer.top": "回到顶部",
@@ -217,16 +241,16 @@ const projectTranslations = {
   en: {
     llm: {
       date: "Jan. 2026 - Present",
-      title: "Multi-Turn Evaluation of Persona Stability and Trust in LLM Agents",
+      title: "Persona Stability and Trust in Evolving AI Agents (Master's Thesis)",
       summary:
-        "An HCI research project distinguishing acceptable persona evolution from harmful drift in LLM-based agents, with multi-turn evaluation, external state tracking, and dynamic trust measurement.",
+        "A master's thesis on persona stability, dynamic trust, and long-term user willingness to continue interacting with evolving AI agents under multi-turn conversational pressure.",
       points: [
-        "Developed an HCI framework to distinguish acceptable persona evolution from harmful drift in LLM-based agents.",
-        "Designed a 27-item scale measuring dynamic trust, expectation violation, and user-initiated repair.",
-        "Built a scalable multi-turn evaluation pipeline with external state tracking, controlled growth triggers, and trajectory constraints.",
-        "Compared three growth mechanisms across multiple agent roles and designed a longitudinal study on trust and continued interaction."
+        "Theoretical Framework & Scales: Conceptualized a novel HCI framework to distinguish benign persona evolution, or natural growth, from problematic drift and personality collapse in LLM agents; formulated a 27-item scale measuring dynamic trust, expectation violation, and user-initiated repair behaviors.",
+        "Automated Evaluation Pipeline: Developed a scalable offline simulation pipeline integrated with an external state management layer, applying strict trajectory constraints including max change per turn and monotonicity to monitor multi-turn LLM trait trajectories.",
+        "Multi-Role & Condition Verification: Benchmarked emotional-support agents, creative collaborators, and mentors under Static, Feedback-driven, and Self-driven growth mechanisms, including challenging interactions such as identity conflict and boundary challenges.",
+        "Long-Term User Studies: Designed and executed a longitudinal user study using multidimensional scenario vignettes to analyze human change-awareness and evaluate how agent personality evolution influences long-term willingness to continue interaction."
       ],
-      tags: ["HCI", "LLM Agents", "Trust", "Persona Stability", "Multi-turn Evaluation"]
+      tags: ["Master's Thesis", "HCI", "LLM Agents", "Persona Stability", "Dynamic Trust", "Longitudinal Study"]
     },
     ar: {
       date: "May 2024 - May 2025",
@@ -286,16 +310,16 @@ const projectTranslations = {
   zh: {
     llm: {
       date: "2026 年 1 月 - 至今",
-      title: "LLM 智能体人格稳定性与信任的多轮评估",
+      title: "演化型 AI 智能体的人格稳定性与信任研究（硕士论文）",
       summary:
-        "面向 LLM 智能体的 HCI 研究项目，用于区分可接受的人格演化与有害漂移，并通过多轮评估、外部状态追踪和动态信任量表进行测量。",
+        "硕士论文项目，研究演化型 AI 智能体在多轮对话压力下的人格稳定性、动态信任以及用户长期持续交互意愿。",
       points: [
-        "提出 HCI 框架，区分 LLM 智能体中的可接受人格演化与有害漂移。",
-        "设计 27 项量表，用于测量动态信任、预期违背和用户主动修复。",
-        "搭建可扩展的多轮评估流程，包含外部状态追踪、受控成长触发和轨迹约束。",
-        "比较多种成长机制和智能体角色，并设计纵向研究评估人格变化对信任与持续交互的影响。"
+        "理论框架与量表：构建 HCI 框架，用于区分良性人格演化（自然成长）与问题性漂移（人格坍塌），并设计 27 项量表测量动态信任、预期违背和用户主动修复行为。",
+        "自动化评估流程：开发可扩展的离线模拟管线，并整合外部状态管理层，通过每轮最大变化量、单调性等轨迹约束稳定追踪多轮 LLM 特质变化。",
+        "多角色与条件验证：在情感支持、创意协作、导师等角色中，对 Static、Feedback-driven、Self-driven 三种成长机制进行对比，并加入身份冲突、边界挑战等高压交互条件。",
+        "长期用户研究：设计并执行基于多维情境 vignette 的纵向用户研究，分析用户对变化的感知，并评估智能体人格演化模式如何影响长期继续交互意愿。"
       ],
-      tags: ["HCI", "LLM 智能体", "信任", "人格稳定性", "多轮评估"]
+      tags: ["硕士论文", "HCI", "LLM 智能体", "人格稳定性", "动态信任", "纵向研究"]
     },
     ar: {
       date: "2024 年 5 月 - 2025 年 5 月",
@@ -346,6 +370,59 @@ const projectTranslations = {
         "随着级联数增加，在仿真中将总谐波畸变降低至约 2%。"
       ],
       tags: ["MATLAB", "PLECS", "SHEPWM", "免疫算法", "PSO", "GA"]
+    }
+  }
+};
+
+const experienceTranslations = {
+  en: {
+    work: {
+      date: "Jan. 2026 - Present",
+      title: "AI APP Development Intern",
+      summary:
+        "An internship focused on consistent character generation for an AI-assisted visual diary application.",
+      points: [
+        "Developed an end-to-end generative visual storytelling pipeline that transforms diary prompts into personalized ball-jointed-doll images through automated model configuration, generation, and output management.",
+        "Fine-tuned and integrated custom LoRA models with Stable Diffusion to improve cross-scene character identity consistency while reducing visual and stylistic drift.",
+        "Designed structured LoRA training datasets and optimized captions, prompt templates, sampling settings, and generation parameters for controllable character appearance, pose, clothing, and background."
+      ],
+      tags: ["Internship", "Stable Diffusion", "LoRA", "Prompt Engineering", "Dataset Curation", "Generative AI"]
+    },
+    activities: {
+      date: "Oct. 2021 - Jun. 2023",
+      title: "Vice-Chair, Student Accommodation Committee, XJTLU",
+      summary:
+        "A leadership role supporting student events, resident communication, and committee media operations.",
+      points: [
+        "Led the planning and delivery of major student events, including annual club-recruitment activities.",
+        "Coordinated logistics, promotion, and on-site execution across student-facing activities.",
+        "Managed the committee's social media channels and produced written and video content to strengthen engagement and improve communication with residents."
+      ],
+      tags: ["Leadership", "Event Planning", "Student Affairs", "Social Media", "Content Production"]
+    }
+  },
+  zh: {
+    work: {
+      date: "2026 年 1 月 - 至今",
+      title: "AI APP 开发实习生",
+      summary: "围绕 AI 辅助视觉日记应用中一致角色生成展开的实习经历。",
+      points: [
+        "开发端到端生成式视觉叙事流程，将日记提示词通过自动模型配置、图像生成和输出管理转化为个性化 BJD 图像。",
+        "微调并集成 Stable Diffusion 的定制 LoRA 模型，提升跨场景角色身份一致性，同时减少视觉和风格漂移。",
+        "设计结构化 LoRA 训练数据集，并优化 caption、提示词模板、采样设置和生成参数，使角色外观、姿态、服装和背景更可控。"
+      ],
+      tags: ["实习", "Stable Diffusion", "LoRA", "提示词工程", "数据集整理", "生成式 AI"]
+    },
+    activities: {
+      date: "2021 年 10 月 - 2023 年 6 月",
+      title: "西交利物浦大学学生宿舍委员会副主席",
+      summary: "负责支持学生活动、住宿沟通和委员会社媒运营的学生领导力经历。",
+      points: [
+        "负责策划并交付年度社团招新等大型学生活动。",
+        "协调活动后勤、宣传和现场执行，保障面向学生的活动顺利落地。",
+        "运营委员会社交媒体渠道，产出图文与视频内容，以增强学生参与度并改善与住宿学生的沟通。"
+      ],
+      tags: ["领导力", "活动策划", "学生事务", "社交媒体", "内容创作"]
     }
   }
 };
@@ -543,7 +620,8 @@ Object.assign(projectTranslations.zh, {
 });
 
 let currentLanguage = localStorage.getItem("language") || "en";
-let activeProjectKey = null;
+let activeDetailType = null;
+let activeDetailKey = null;
 
 const dialog = document.querySelector(".project-dialog");
 const closeButton = document.querySelector(".dialog-close");
@@ -644,8 +722,8 @@ function applyLanguage(language) {
     button.setAttribute("aria-pressed", String(button.dataset.langSwitch === currentLanguage));
   });
 
-  if (activeProjectKey && dialog?.open) {
-    fillProjectDialog(activeProjectKey);
+  if (activeDetailKey && dialog?.open) {
+    fillDetailDialog(activeDetailType, activeDetailKey);
   }
 
   if (mapTooltip) {
@@ -653,8 +731,9 @@ function applyLanguage(language) {
   }
 }
 
-function fillProjectDialog(projectKey) {
-  const project = projectTranslations[currentLanguage][projectKey];
+function fillDetailDialog(type, key) {
+  const source = type === "experience" ? experienceTranslations : projectTranslations;
+  const project = source[currentLanguage][key];
 
   if (!project || !dialog) {
     return;
@@ -668,9 +747,20 @@ function fillProjectDialog(projectKey) {
 }
 
 function openProject(projectKey) {
-  activeProjectKey = projectKey;
-  fillProjectDialog(projectKey);
+  activeDetailType = "project";
+  activeDetailKey = projectKey;
+  fillDetailDialog("project", projectKey);
+  openDetailDialog();
+}
 
+function openExperience(experienceKey) {
+  activeDetailType = "experience";
+  activeDetailKey = experienceKey;
+  fillDetailDialog("experience", experienceKey);
+  openDetailDialog();
+}
+
+function openDetailDialog() {
   if (!dialog) {
     return;
   }
@@ -688,6 +778,10 @@ document.querySelectorAll("[data-lang-switch]").forEach((button) => {
 
 document.querySelectorAll("[data-project]").forEach((button) => {
   button.addEventListener("click", () => openProject(button.dataset.project));
+});
+
+document.querySelectorAll("[data-experience]").forEach((button) => {
+  button.addEventListener("click", () => openExperience(button.dataset.experience));
 });
 
 document.querySelectorAll(".project-timeline a").forEach((link) => {
